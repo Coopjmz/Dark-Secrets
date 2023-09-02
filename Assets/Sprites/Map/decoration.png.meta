@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: light_wall
+      name: wall_light
       rect:
         serializedVersion: 2
         x: 48
@@ -139,7 +139,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,8 +228,8 @@ TextureImporter:
       door_closed: 1352366593
       door_open: 1038730331
       light_post: 645677536
-      light_wall: -1071261180
       tree: -579380646
+      wall_light: -1071261180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
