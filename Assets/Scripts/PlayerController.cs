@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 sealed class PlayerController : MonoBehaviour
 {
     const float EPSILON = .001f;
