@@ -330,12 +330,12 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 10
-  m_Material: {fileID: 0}
+  m_UseAutoMass: 1
+  m_Mass: 0.96000004
+  m_LinearDrag: 20
+  m_AngularDrag: 0
+  m_GravityScale: 30
+  m_Material: {fileID: 6200000, guid: b8c9bf87aa86f38438166f2359a26c43, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -471,7 +471,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
-  _jumpForce: 20
+  _jumpForce: 80
+  _maxNumberOfJumps: 2
 --- !u!95 &532465705
 Animator:
   serializedVersion: 5
